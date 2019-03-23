@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:id="@+id/bhome"
+        android:checked="true"/>
+    <item android:title="Radio"
+        android:icon="@drawable/ic_radio_black_24dp"
+        android:id="@+id/bradio"/>
+    <item android:title="Browse"
+
+        android:icon="@drawable/ic_open_in_browser_black_24dp"/>
+    <item android:title="My Music"
+        android:icon="@drawable/ic_account_circle_black_24dp"/>
+</group>
+</menu>
